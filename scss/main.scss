@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import "config";
+@import "navbar";
+@import "hero";
+@import "products";
+@import "cart";
+
+.section-title h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 5rem;
+	text-transform: capitalize;
+	letter-spacing: $mainSpacing;
+}
+
+footer {
+	font-size: 1rem;
+	//position: fixed;
+	bottom: 0;
+	text-align: center;
+	padding: 1rem;
+	width: 100%;
+	overflow: hidden;
+	background-color: $navbarBackground;
+	margin: 0;
+}
